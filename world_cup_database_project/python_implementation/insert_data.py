@@ -4,7 +4,7 @@ import psycopg2
 bashCommand = "find ~/Desktop -name games.csv"
 file_location = subprocess.check_output(bashCommand, shell=True).decode('ascii').strip()
 try:
-    conn = psycopg2.connect("dbname=worldcup user=waymaran")
+    conn = psycopg2.connect("dbname=worldcup user=freecodecamp")
     with conn:
         with open(file_location, 'r') as file, conn.cursor() as curs:
             curs.execute("TRUNCATE teams, games;")

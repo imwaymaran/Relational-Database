@@ -6,7 +6,7 @@ def execute(query):
             print(*line)
 
 try:
-    conn = psycopg2.connect("dbname=worldcup user=waymaran")
+    conn = psycopg2.connect("dbname=worldcup user=freecodecamp")
     with conn, conn.cursor() as curs:
         print("Total number of goals in all games from winning teams:")
         execute("SELECT SUM(winner_goals) FROM games")
