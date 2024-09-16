@@ -1,5 +1,5 @@
 # Build a Periodic Table Database
-A Bash script to get information about chemical elements from a periodic table database..
+A Bash script to get information about chemical elements from a periodic table database.
 
 The project was completed as part of the [Relation Database certification](https://www.freecodecamp.org/learn/relational-database/build-a-periodic-table-database-project/build-a-periodic-table-database).
 
